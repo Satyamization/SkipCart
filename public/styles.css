@@ -1,0 +1,256 @@
+/* ************************************** TAG SELECTORS *************************************************** */
+
+body {
+	font-family: 'Varela Round', sans-serif;
+}
+hr{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #888888;
+}
+
+
+
+/* ************************************** CLASS SELECTORS *************************************************** */
+
+/* ****** navbar ******** */
+.bg-color{
+    background-color: #204051;
+}
+.brand{
+    color: white
+}
+
+.List-of-items{
+    display: flex;
+    justify-content: center;    
+}
+/* ************ this style is for login close button ****************** */
+.logn-close-button{
+    position: absolute;
+    top: 0px;
+    right: -2px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: #eeeeee;
+    color: red;
+    
+}
+
+/* ************ this is end of login close button ****************** */
+.login-left-description{
+    background-position: center 85%;
+    background-position-x: center;
+    background-position-y: 85%;
+    background-repeat: no-repeat;
+}
+.login-modal{
+    background-color: #eeeeee;
+}
+.login-input-text{
+    border-radius: 5%;
+    
+}
+
+
+
+/* THIS WAS COPIED FOR THE STYLING OF LOGIN Modal*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  z-index: 1;
+
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #ffffff;
+  border-radius: 10px;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  border-radius: 10px;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: #43A047;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+.form .register-form {
+  display: none;
+}
+
+
+.bttn-without-style{
+  border: none;
+}
+
+
+/* .container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.container:before, .container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container .info {
+  margin: 50px auto;
+  text-align: center;
+}
+.container .info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1a1a1a;
+}
+.container .info span {
+  color: #4d4d4d;
+  font-size: 12px;
+}
+.container .info span a {
+  color: #000000;
+  text-decoration: none;
+}
+.container .info span .fa {
+  color: #EF3B3A;
+} */
+
+
+/* *************** CART Page ****************** */
+.empty-cart{
+  margin-top: 5%;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-bottom: 20%;
+  border: none;
+  padding: 10px;
+  box-shadow: 5px 10px 18px rgb(168, 167, 167);
+  text-align: center;
+  background-color: white;
+  box-shadow: (0, 0, 0, 0.2);
+  width: 94%;
+  height: 30%;
+}
+.empty-cart-ico{
+  color: #111d5e;
+  margin: 3%;
+}
+.empty-cart-ico:hover{
+  color: #086972;
+}
+.empty-cart-description{
+  line-height: 1;
+  margin: 6%;
+}
+.not-logged-cart{
+  margin-top: 5%;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-bottom: 20%;
+  border: none;
+  padding: 10px;
+  box-shadow: 5px 10px 18px rgb(168, 167, 167);
+  text-align: center;
+  background-color: white;
+  box-shadow: (0, 0, 0, 0.2);
+  width: 94%;
+  height: 30%;
+}
+.logged-cart{
+  margin-top: 5%;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-bottom: 20%;
+  border: none;
+  padding: 10px;
+  box-shadow: 5px 10px 18px rgb(168, 167, 167);
+  text-align: center;
+  background-color: white;
+  box-shadow: (0, 0, 0, 0.2);
+  width: 94%;
+  height: 30%;
+}
+
+
+/* ************* Footer ******************* */
+.foot-footer{
+  background-color: #383e56;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.copy-right{
+  text-align: center;
+  color: #e4e4e4;
+  line-height: 1;
+  font-size: smaller;
+}
+.foot-addres-brand{
+  font-size: x-small;
+}
+.foot-smal-text{
+  font-size: smaller;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #b3b3b3;
+  line-height: 2;
+}
+.foot-text-head{
+  text-align: left;
+  color: white;
+}
+.foot-address{
+  border-left: 1px solid rgb(218, 218, 218);
+  padding-left: 1rem;
+}
+/* ************************************** ID SELECTORS *************************************************** */
+#search-box{
+    border: 1px solid #cccccc; 
+   outline:0; 
+   height:30px; 
+   width: 30%; 
+   border-radius: 4px 4px 4px 4px;
+   box-sizing: border-box;
+   font-size: 16px;
+}
